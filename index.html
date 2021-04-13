@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Layout Task</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1> User Feedback Form </h1>
+
+	<form action="/my-handling-form-page" method="post">
+		<fieldset>
+			<legend>Please provide your feedback</legend>
+				<ul>
+			  <li>
+				      <label for="name">First Name</label>
+				          <input type="text" id="name" name="first_name" />
+					    </li>
+					    <li><label for="name">Last Name</label>
+						    				          <input type="text" id="name" name="last_name" />
+											  					    </li>
+
+
+																    <li><label for="feedback"> Satisfaction Level</label>
+	 <select id="feedback" name="feedback">
+		               <option value="1">1</option>
+			               <option value="2">2</option>
+				               <option value="3">3</option>
+					       	<option value="4">4</option>
+							<option value="5">5</option>
+	 </select></li>
+
+									<li><label for="msg">Feedback</label>
+									          <textarea  rows="5" cols="33" id="feedback" name="user_feedback"></textarea>
+										    </li>
+										    <li class="button">
+											      <button type="submit">Submit</button>
+										    </li>
+				</ul>
+		</fieldset>
+										    </form>
+</body>
